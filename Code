@@ -10,9 +10,9 @@ int main()
   gets(b);
 
   if (checkAnagram(a, b))
-    printf("The strings are anagrams.\n");
+    printf("True.\n");
   else
-    printf("The strings aren't anagrams.\n");
+    printf("False.\n");
 
   return 0;
 }
